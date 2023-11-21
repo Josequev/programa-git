@@ -1,0 +1,65 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  background-color: white; /* Fondo blanco*/
+  color: #000000; /* Letra de color negro */
+  margin: 0;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#logo{
+  padding-top:300px ;
+}
+
+#logo2{
+  padding-top:20px ;
+}
+.contact-form {
+  background-color:#68F9ED; /* Casillas de color rojo */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #019184;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.social-icons img {
+  background-color: yellowgreen;
+  padding-block: 10px;
+  border-radius: 30px;
+  max-width: 50px;
+}
